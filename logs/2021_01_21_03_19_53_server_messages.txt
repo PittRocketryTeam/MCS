@@ -1,0 +1,75 @@
+2021/01/21 03:19:52.197  INFO: COSMOS Version: 4.4.2
+2021/01/21 03:19:52.197  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/01/21 03:19:52.198  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/VEHICLE/cmd_tlm_server.txt
+2021/01/21 03:19:52.198  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/INST/cmd_tlm_server.txt
+2021/01/21 03:19:52.199  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/DART/cmd_tlm_server.txt
+2021/01/21 03:19:52.202  INFO: Marshal file does not exist: /cosmos/outputs/tmp/marshal_40ff4611fe1127bacd88ed29d625898b.bin
+2021/01/21 03:19:52.392  INFO: Creating thread for router INST_ROUTER
+2021/01/21 03:19:52.393  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/01/21 03:19:52.393  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:19:52.394  INFO: Creating thread for interface SYSTEM_VEHICLE
+2021/01/21 03:19:52.394  INFO: Creating thread for interface SYSTEM_INT
+2021/01/21 03:19:52.394  INFO: Creating thread for interface INST_INT
+2021/01/21 03:19:52.395  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/01/21 03:19:52.395  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/01/21 03:19:52.396  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/01/21 03:19:52.396  INFO: Starting packet reading for SYSTEM_VEHICLE
+2021/01/21 03:19:52.396  INFO: Connecting to SYSTEM_VEHICLE...
+2021/01/21 03:19:52.396  INFO: SYSTEM_VEHICLE Connection Success
+2021/01/21 03:19:52.396  INFO: Starting packet reading for SYSTEM_INT
+2021/01/21 03:19:52.397  INFO: Connecting to SYSTEM_INT...
+2021/01/21 03:19:52.397  INFO: SYSTEM_INT Connection Success
+2021/01/21 03:19:52.397  INFO: Starting packet reading for INST_INT
+2021/01/21 03:19:52.397  INFO: Connecting to INST_INT...
+2021/01/21 03:19:52.398  WARN: Inside class Cosmos::LimitsGroups, method check_inst2_temp2 doesn't match a group name.
+Methods must begin with 'check_' and end with a valid group name.
+You need to declare 'LIMITS_GROUP INST2_TEMP2' for check_inst2_temp2 to work.
+Currently defined groups: 
+2021/01/21 03:19:52.399  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:19:52.399  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/01/21 03:19:52.399  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/01/21 03:19:52.400  INFO: Starting packet reading for INST_ROUTER
+2021/01/21 03:19:52.400  INFO: Connecting to INST_ROUTER...
+2021/01/21 03:19:52.400  INFO: INST_ROUTER Connection Success
+2021/01/21 03:19:52.401  INFO: INST_INT Connection Success
+2021/01/21 03:19:52.522  ERROR: INST_INT - Unknown 10 byte packet starting: 27ACE590BBDDB0C6D613
+2021/01/21 03:19:52.527  INFO: Log File Opened : /cosmos/outputs/logs/2021_01_21_03_19_52_tlm.bin
+2021/01/21 03:19:52.527  WARN: INST MECH SLRPNL1 = -179.0 is YELLOW_LOW (2021/01/21 03:19:52.527)
+2021/01/21 03:19:52.528  ERROR: INST PARAMS VALUE2 = BAD is RED (2021/01/21 03:19:52.528)
+2021/01/21 03:19:52.528  ERROR: INST PARAMS VALUE4 = BAD is RED (2021/01/21 03:19:52.528)
+2021/01/21 03:19:52.528  INFO: INST HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2021/01/21 03:19:52.528)
+2021/01/21 03:19:52.528  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2021/01/21 03:19:52.528)
+2021/01/21 03:19:52.528  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2021/01/21 03:19:52.528)
+2021/01/21 03:19:52.528  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2021/01/21 03:19:52.528)
+2021/01/21 03:19:53.471  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2021/01/21 03:19:53.471)
+2021/01/21 03:19:54.458  WARN: INST HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2021/01/21 03:19:54.458)
+2021/01/21 03:19:57.108  INFO: User disconnecting interface INST_INT
+2021/01/21 03:19:57.108  INFO: Killing thread for interface INST_INT
+2021/01/21 03:19:57.109  INFO: Stopped packet reading for INST_INT
+2021/01/21 03:19:57.118  INFO: Disconnected from interface INST_INT
+2021/01/21 03:20:13.281  INFO: Log File Closed : /cosmos/outputs/logs/2021_01_21_03_19_52_tlm.bin
+2021/01/21 03:20:13.282  INFO: Clean disconnect from SYSTEM_VEHICLE (returned nil)
+2021/01/21 03:20:13.282  INFO: Connection Lost for SYSTEM_VEHICLE
+2021/01/21 03:20:13.282  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2021/01/21 03:20:13.282  INFO: Connection Lost for SYSTEM_INT
+2021/01/21 03:20:13.383  INFO: Killing thread for router INST_ROUTER
+2021/01/21 03:20:13.384  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2021/01/21 03:20:13.384  INFO: Connection Lost for INST_ROUTER
+2021/01/21 03:20:13.455  INFO: Stopped packet reading for INST_ROUTER
+2021/01/21 03:20:13.455  INFO: Disconnected from router INST_ROUTER
+2021/01/21 03:20:13.455  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/01/21 03:20:13.456  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/01/21 03:20:13.456  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/01/21 03:20:13.548  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/01/21 03:20:13.558  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/01/21 03:20:13.558  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:20:13.558  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:20:13.650  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:20:13.660  INFO: Killing thread for interface SYSTEM_VEHICLE
+2021/01/21 03:20:13.661  INFO: Stopped packet reading for SYSTEM_VEHICLE
+2021/01/21 03:20:13.671  INFO: Disconnected from interface SYSTEM_VEHICLE
+2021/01/21 03:20:13.671  INFO: Killing thread for interface SYSTEM_INT
+2021/01/21 03:20:13.671  INFO: Stopped packet reading for SYSTEM_INT
+2021/01/21 03:20:13.681  INFO: Disconnected from interface SYSTEM_INT
+2021/01/21 03:20:13.681  INFO: Disconnected from interface INST_INT
+2021/01/21 03:20:13.681  INFO: Disconnected from interface DART_INT

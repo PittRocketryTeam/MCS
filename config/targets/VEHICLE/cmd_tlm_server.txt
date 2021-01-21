@@ -1,0 +1,4 @@
+# This is a segment of the main cmd_tlm_server.txt that will be used with
+# AUTO_INTERFACE_TARGETS or INTERFACE_TARGET
+
+INTERFACE VEHICLE_INT tcpip_client_interface.rb 127.0.0.1 8888 8888 5.0 nil LENGTH 0 32 4

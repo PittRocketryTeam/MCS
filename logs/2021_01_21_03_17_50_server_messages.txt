@@ -1,0 +1,60 @@
+2021/01/21 03:17:49.733  INFO: COSMOS Version: 4.4.2
+2021/01/21 03:17:49.733  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/01/21 03:17:49.734  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/VEHICLE/cmd_tlm_server.txt
+2021/01/21 03:17:49.735  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/INST/cmd_tlm_server.txt
+2021/01/21 03:17:49.735  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/DART/cmd_tlm_server.txt
+2021/01/21 03:17:49.738  INFO: Marshal file does not exist: /cosmos/outputs/tmp/marshal_1fc2a2ed94873c4a690effcc05d2844c.bin
+2021/01/21 03:17:49.967  INFO: Creating thread for router INST_ROUTER
+2021/01/21 03:17:49.967  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/01/21 03:17:49.968  INFO: Starting packet reading for INST_ROUTER
+2021/01/21 03:17:49.968  INFO: Connecting to INST_ROUTER...
+2021/01/21 03:17:49.968  INFO: INST_ROUTER Connection Success
+2021/01/21 03:17:49.970  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:17:49.970  INFO: Creating thread for interface SYSTEM_VEHICLE
+2021/01/21 03:17:49.970  INFO: Creating thread for interface SYSTEM_INT
+2021/01/21 03:17:49.971  INFO: Creating thread for interface INST_INT
+2021/01/21 03:17:49.971  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/01/21 03:17:49.972  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/01/21 03:17:49.972  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/01/21 03:17:49.973  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:17:49.973  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/01/21 03:17:49.974  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/01/21 03:17:49.974  INFO: Starting packet reading for SYSTEM_VEHICLE
+2021/01/21 03:17:49.974  INFO: Connecting to SYSTEM_VEHICLE...
+2021/01/21 03:17:49.974  INFO: SYSTEM_VEHICLE Connection Success
+2021/01/21 03:17:49.974  INFO: Starting packet reading for SYSTEM_INT
+2021/01/21 03:17:49.974  INFO: Connecting to SYSTEM_INT...
+2021/01/21 03:17:49.974  INFO: SYSTEM_INT Connection Success
+2021/01/21 03:17:49.975  INFO: Starting packet reading for INST_INT
+2021/01/21 03:17:49.975  INFO: Connecting to INST_INT...
+2021/01/21 03:17:50.069  INFO: INST_INT Connection Success
+2021/01/21 03:17:50.102  ERROR: INST_INT - Unknown 10 byte packet starting: 16F99DEBD178755F5CFD
+2021/01/21 03:17:50.115  INFO: Log File Opened : /cosmos/outputs/logs/2021_01_21_03_17_50_tlm.bin
+2021/01/21 03:17:50.115  WARN: INST MECH SLRPNL1 = -179.0 is YELLOW_LOW (2021/01/21 03:17:50.115)
+2021/01/21 03:17:50.115  ERROR: INST PARAMS VALUE2 = BAD is RED (2021/01/21 03:17:50.115)
+2021/01/21 03:17:50.115  ERROR: INST PARAMS VALUE4 = BAD is RED (2021/01/21 03:17:50.115)
+2021/01/21 03:17:50.116  INFO: INST HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2021/01/21 03:17:50.116)
+2021/01/21 03:17:50.116  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2021/01/21 03:17:50.116)
+2021/01/21 03:17:50.116  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2021/01/21 03:17:50.116)
+2021/01/21 03:17:50.116  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2021/01/21 03:17:50.116)
+2021/01/21 03:17:51.050  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2021/01/21 03:17:51.050)
+2021/01/21 03:17:52.033  WARN: INST HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2021/01/21 03:17:52.033)
+2021/01/21 03:17:55.007  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW (2021/01/21 03:17:55.007)
+2021/01/21 03:17:55.108  ERROR: Background Task 'Limits Groups' unexpectedly died
+2021/01/21 03:17:55.110  FATAL: Fatal Exception! Exiting...
+2021/01/21 03:17:55.111  FATAL: RuntimeError : Telemetry target 'INST2' does not exist
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/api.rb:441:in `value'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/api.rb:441:in `tlm'
+/cosmos/config/targets/SYSTEM/lib/limits_groups.rb:43:in `block in check_inst2_temp2'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:50:in `process_group'
+/cosmos/config/targets/SYSTEM/lib/limits_groups.rb:42:in `check_inst2_temp2'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:89:in `block (2 levels) in call'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:89:in `each'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:89:in `block in call'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:87:in `loop'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:87:in `call'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:42:in `block in start'
+2021/01/21 03:17:56.033  ERROR: INST HEALTH_STATUS TEMP1 = 84.55245000000002 is RED_HIGH (2021/01/21 03:17:56.033)
+2021/01/21 03:17:56.033  INFO: cmd("INST COLLECT with TYPE NORMAL, DURATION 5.0, OPCODE 171, TEMP 0.0")
+2021/01/21 03:17:56.034  INFO: Log File Opened : /cosmos/outputs/logs/2021_01_21_03_17_56_cmd.bin
+2021/01/21 03:17:57.032  ERROR: INST HEALTH_STATUS TEMP2 = NaN is RED_LOW (2021/01/21 03:17:57.032)

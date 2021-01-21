@@ -1,0 +1,47 @@
+2021/01/21 03:21:45.175  INFO: COSMOS Version: 4.4.2
+2021/01/21 03:21:45.175  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/01/21 03:21:45.176  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/VEHICLE/cmd_tlm_server.txt
+2021/01/21 03:21:45.177  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/INST/cmd_tlm_server.txt
+2021/01/21 03:21:45.177  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/DART/cmd_tlm_server.txt
+2021/01/21 03:21:45.180  INFO: Marshal file does not exist: /cosmos/outputs/tmp/marshal_40ff4611fe1127bacd88ed29d625898b.bin
+2021/01/21 03:21:45.371  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/01/21 03:21:45.372  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:21:45.373  INFO: Creating thread for interface SYSTEM_VEHICLE
+2021/01/21 03:21:45.373  INFO: Creating thread for interface SYSTEM_INT
+2021/01/21 03:21:45.374  INFO: Starting packet reading for SYSTEM_VEHICLE
+2021/01/21 03:21:45.374  INFO: Connecting to SYSTEM_VEHICLE...
+2021/01/21 03:21:45.375  INFO: SYSTEM_VEHICLE Connection Success
+2021/01/21 03:21:45.375  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:21:45.375  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/01/21 03:21:45.375  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/01/21 03:21:45.376  INFO: Starting packet reading for SYSTEM_INT
+2021/01/21 03:21:45.376  INFO: Connecting to SYSTEM_INT...
+2021/01/21 03:21:45.376  INFO: SYSTEM_INT Connection Success
+2021/01/21 03:21:45.376  WARN: Inside class Cosmos::LimitsGroups, method check_inst2_temp2 doesn't match a group name.
+Methods must begin with 'check_' and end with a valid group name.
+You need to declare 'LIMITS_GROUP INST2_TEMP2' for check_inst2_temp2 to work.
+Currently defined groups: 
+2021/01/21 03:21:45.377  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/01/21 03:21:45.377  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/01/21 03:21:45.377  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/01/21 03:21:53.395  INFO: User disconnecting interface SYSTEM_VEHICLE
+2021/01/21 03:21:53.395  INFO: Killing thread for interface SYSTEM_VEHICLE
+2021/01/21 03:21:53.395  INFO: Clean disconnect from SYSTEM_VEHICLE (returned nil)
+2021/01/21 03:21:53.395  INFO: Connection Lost for SYSTEM_VEHICLE
+2021/01/21 03:21:53.395  INFO: Stopped packet reading for SYSTEM_VEHICLE
+2021/01/21 03:21:53.405  INFO: Disconnected from interface SYSTEM_VEHICLE
+2021/01/21 03:21:58.337  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2021/01/21 03:21:58.337  INFO: Connection Lost for SYSTEM_INT
+2021/01/21 03:21:58.438  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/01/21 03:21:58.438  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/01/21 03:21:58.438  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/01/21 03:21:58.520  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/01/21 03:21:58.530  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/01/21 03:21:58.530  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:21:58.530  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:21:58.622  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:21:58.642  INFO: Disconnected from interface SYSTEM_VEHICLE
+2021/01/21 03:21:58.642  INFO: Killing thread for interface SYSTEM_INT
+2021/01/21 03:21:58.642  INFO: Stopped packet reading for SYSTEM_INT
+2021/01/21 03:21:58.653  INFO: Disconnected from interface SYSTEM_INT
+2021/01/21 03:21:58.653  INFO: Disconnected from interface DART_INT

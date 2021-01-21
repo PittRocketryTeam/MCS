@@ -1,0 +1,116 @@
+2021/01/21 03:15:44.350  INFO: COSMOS Version: 4.4.2
+2021/01/21 03:15:44.350  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/01/21 03:15:44.351  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/VEHICLE/cmd_tlm_server.txt
+2021/01/21 03:15:44.351  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/INST/cmd_tlm_server.txt
+2021/01/21 03:15:44.352  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/DART/cmd_tlm_server.txt
+2021/01/21 03:15:44.359  INFO: Marshal load success: /cosmos/outputs/tmp/marshal_1fc2a2ed94873c4a690effcc05d2844c.bin
+2021/01/21 03:15:44.460  INFO: Creating thread for router INST_ROUTER
+2021/01/21 03:15:44.460  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/01/21 03:15:44.461  INFO: Starting packet reading for INST_ROUTER
+2021/01/21 03:15:44.461  INFO: Connecting to INST_ROUTER...
+2021/01/21 03:15:44.461  INFO: INST_ROUTER Connection Success
+2021/01/21 03:15:44.461  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:15:44.461  INFO: Creating thread for interface SYSTEM_VEHICLE
+2021/01/21 03:15:44.461  INFO: Creating thread for interface SYSTEM_INT
+2021/01/21 03:15:44.461  INFO: Creating thread for interface INST_INT
+2021/01/21 03:15:44.462  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/01/21 03:15:44.462  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/01/21 03:15:44.468  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/01/21 03:15:44.469  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:15:44.469  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/01/21 03:15:44.469  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/01/21 03:15:44.469  INFO: Starting packet reading for SYSTEM_INT
+2021/01/21 03:15:44.470  INFO: Connecting to SYSTEM_INT...
+2021/01/21 03:15:44.470  INFO: SYSTEM_INT Connection Success
+2021/01/21 03:15:44.470  INFO: Starting packet reading for INST_INT
+2021/01/21 03:15:44.470  INFO: Connecting to INST_INT...
+2021/01/21 03:15:44.471  INFO: INST_INT Connection Success
+2021/01/21 03:15:44.544  INFO: Starting packet reading for SYSTEM_VEHICLE
+2021/01/21 03:15:44.544  INFO: Connecting to SYSTEM_VEHICLE...
+2021/01/21 03:15:44.544  INFO: SYSTEM_VEHICLE Connection Success
+2021/01/21 03:15:44.575  ERROR: INST_INT - Unknown 10 byte packet starting: 01A8DC96F0EFA4ABFBE2
+2021/01/21 03:15:44.577  INFO: Log File Opened : /cosmos/outputs/logs/2021_01_21_03_15_44_tlm.bin
+2021/01/21 03:15:44.578  WARN: INST MECH SLRPNL1 = -179.0 is YELLOW_LOW (2021/01/21 03:15:44.577)
+2021/01/21 03:15:44.578  ERROR: INST PARAMS VALUE2 = BAD is RED (2021/01/21 03:15:44.578)
+2021/01/21 03:15:44.578  ERROR: INST PARAMS VALUE4 = BAD is RED (2021/01/21 03:15:44.578)
+2021/01/21 03:15:44.578  INFO: INST HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH (2021/01/21 03:15:44.578)
+2021/01/21 03:15:44.578  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW (2021/01/21 03:15:44.578)
+2021/01/21 03:15:44.578  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH (2021/01/21 03:15:44.578)
+2021/01/21 03:15:44.578  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN (2021/01/21 03:15:44.578)
+2021/01/21 03:15:45.506  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN (2021/01/21 03:15:45.506)
+2021/01/21 03:15:46.522  WARN: INST HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH (2021/01/21 03:15:46.522)
+2021/01/21 03:15:49.249  INFO: Log File Closed : /cosmos/outputs/logs/2021_01_21_03_15_44_tlm.bin
+2021/01/21 03:15:49.249  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2021/01/21 03:15:49.250  INFO: Connection Lost for SYSTEM_INT
+2021/01/21 03:15:49.250  INFO: Clean disconnect from SYSTEM_VEHICLE (returned nil)
+2021/01/21 03:15:49.250  INFO: Connection Lost for SYSTEM_VEHICLE
+2021/01/21 03:15:49.352  INFO: Killing thread for router INST_ROUTER
+2021/01/21 03:15:49.352  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2021/01/21 03:15:49.352  INFO: Connection Lost for INST_ROUTER
+2021/01/21 03:15:49.433  INFO: Stopped packet reading for INST_ROUTER
+2021/01/21 03:15:49.443  INFO: Disconnected from router INST_ROUTER
+2021/01/21 03:15:49.443  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/01/21 03:15:49.444  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/01/21 03:15:49.444  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/01/21 03:15:49.528  WARN: INST HEALTH_STATUS GROUND2STATUS = UNAVAILABLE is YELLOW (2021/01/21 03:15:49.528)
+2021/01/21 03:15:49.529  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/01/21 03:15:49.539  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/01/21 03:15:49.539  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:15:49.539  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:15:49.549  ERROR: Background Task 'Limits Groups' unexpectedly died
+2021/01/21 03:15:49.550  FATAL: Fatal Exception! Exiting...
+2021/01/21 03:15:49.550  FATAL: RuntimeError : Telemetry target 'INST2' does not exist
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/api.rb:441:in `value'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/api.rb:441:in `tlm'
+/cosmos/config/targets/SYSTEM/lib/limits_groups.rb:43:in `block in check_inst2_temp2'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:50:in `process_group'
+/cosmos/config/targets/SYSTEM/lib/limits_groups.rb:42:in `check_inst2_temp2'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:89:in `block (2 levels) in call'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:89:in `each'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:89:in `block in call'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:87:in `loop'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:87:in `call'
+/var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:42:in `block in start'
+2021/01/21 03:15:49.641  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/01/21 03:15:50.503  ERROR: INST HEALTH_STATUS TEMP1 = 84.55245000000002 is RED_HIGH (2021/01/21 03:15:50.503)
+2021/01/21 03:15:50.504  INFO: cmd("INST COLLECT with TYPE NORMAL, DURATION 5.0, OPCODE 171, TEMP 0.0")
+2021/01/21 03:15:50.656  WARN: Failed to gracefully kill thread:
+  Caller Backtrace:
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:69:in `stop'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:55:in `block in stop_all'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:55:in `each'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:55:in `stop_all'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:287:in `stop'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:388:in `stop_threads'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:414:in `closeEvent'
+  /var/lib/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `method_missing'
+  /var/lib/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `exec'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:325:in `block in run'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:741:in `set_working_dir'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/gui/qt_tool.rb:306:in `run'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:646:in `block in run'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:608:in `run'
+  tools/CmdTlmServer:15:in `block in <main>'
+  /cosmos/tools/tool_launch.rb:16:in `tool_launch'
+  tools/CmdTlmServer:13:in `<main>'
+  
+  Thread Backtrace:
+  /var/lib/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `sleep'
+  /var/lib/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `execute_in_main_thread'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/top_level.rb:577:in `handle_fatal_exception'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:45:in `rescue in block in start'
+  /var/lib/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:42:in `block in start'
+
+2021/01/21 03:15:50.666  INFO: Killing thread for interface SYSTEM_VEHICLE
+2021/01/21 03:15:50.666  INFO: Stopped packet reading for SYSTEM_VEHICLE
+2021/01/21 03:15:50.676  INFO: Disconnected from interface SYSTEM_VEHICLE
+2021/01/21 03:15:50.677  INFO: Killing thread for interface SYSTEM_INT
+2021/01/21 03:15:50.677  INFO: Stopped packet reading for SYSTEM_INT
+2021/01/21 03:15:50.687  INFO: Disconnected from interface SYSTEM_INT
+2021/01/21 03:15:50.687  INFO: Killing thread for interface INST_INT
+2021/01/21 03:15:50.690  INFO: Clean disconnect from INST_INT (returned nil)
+2021/01/21 03:15:50.690  INFO: Connection Lost for INST_INT
+2021/01/21 03:15:50.690  INFO: Stopped packet reading for INST_INT
+2021/01/21 03:15:50.697  INFO: Disconnected from interface INST_INT
+2021/01/21 03:15:50.697  INFO: Disconnected from interface DART_INT
