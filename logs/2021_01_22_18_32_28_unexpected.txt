@@ -1,0 +1,3 @@
+Unexpected Output:
+
+sh: 1: gnome-terminal: not found

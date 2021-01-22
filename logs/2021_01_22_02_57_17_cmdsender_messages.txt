@@ -1,0 +1,2 @@
+2021/01/22 02:57:17.668  cmd("VEHICLE ABORT with LENGTH 1, CMD_ID 5")
+2021/01/22 02:57:17.673  Error Connecting to Command and Telemetry Server
