@@ -1,0 +1,55 @@
+2021/01/22 00:22:27.729  INFO: COSMOS Version: 4.4.2
+2021/01/22 00:22:27.729  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/01/22 00:22:27.730  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/DART/cmd_tlm_server.txt
+2021/01/22 00:22:27.730  INFO: Processing CmdTlmServer configuration in file: /cosmos/config/targets/VEHICLE/cmd_tlm_server.txt
+2021/01/22 00:22:27.733  INFO: Marshal file does not exist: /cosmos/outputs/tmp/marshal_ca65a3af2475db33337b8c7aa1d691fd.bin
+2021/01/22 00:22:27.941  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/01/22 00:22:27.941  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/01/22 00:22:27.942  INFO: Creating thread for interface SYSTEM_INT
+2021/01/22 00:22:27.944  INFO: Creating thread for interface VEHICLE_INT
+2021/01/22 00:22:27.947  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/01/22 00:22:27.947  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/01/22 00:22:27.947  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/01/22 00:22:27.947  INFO: Starting packet reading for VEHICLE_INT
+2021/01/22 00:22:27.947  INFO: Connecting to VEHICLE_INT...
+2021/01/22 00:22:27.948  ERROR: VEHICLE_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 127.0.0.1:8888
+2021/01/22 00:22:27.948  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/01/22 00:22:27.948  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/01/22 00:22:27.948  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/01/22 00:22:27.948  INFO: Starting packet reading for SYSTEM_INT
+2021/01/22 00:22:27.948  INFO: Connecting to SYSTEM_INT...
+2021/01/22 00:22:27.948  INFO: SYSTEM_INT Connection Success
+2021/01/22 00:22:27.949  WARN: Inside class Cosmos::LimitsGroups, method check_inst2_temp2 doesn't match a group name.
+Methods must begin with 'check_' and end with a valid group name.
+You need to declare 'LIMITS_GROUP INST2_TEMP2' for check_inst2_temp2 to work.
+Currently defined groups: 
+2021/01/22 00:22:30.847  INFO: User disconnecting interface VEHICLE_INT
+2021/01/22 00:22:30.847  INFO: Killing thread for interface VEHICLE_INT
+2021/01/22 00:22:30.847  INFO: Stopped packet reading for VEHICLE_INT
+2021/01/22 00:22:30.848  INFO: Disconnected from interface VEHICLE_INT
+2021/01/22 00:23:39.250  INFO: User connecting interface VEHICLE_INT
+2021/01/22 00:23:39.250  INFO: Creating thread for interface VEHICLE_INT
+2021/01/22 00:23:39.250  INFO: Starting packet reading for VEHICLE_INT
+2021/01/22 00:23:39.251  INFO: Connecting to VEHICLE_INT...
+2021/01/22 00:23:39.251  ERROR: VEHICLE_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 127.0.0.1:8888
+2021/01/22 00:23:44.261  INFO: Connecting to VEHICLE_INT...
+2021/01/22 00:23:44.261  ERROR: VEHICLE_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 127.0.0.1:8888
+2021/01/22 00:23:46.406  INFO: User disconnecting interface VEHICLE_INT
+2021/01/22 00:23:46.406  INFO: Killing thread for interface VEHICLE_INT
+2021/01/22 00:23:46.407  INFO: Stopped packet reading for VEHICLE_INT
+2021/01/22 00:23:46.417  INFO: Disconnected from interface VEHICLE_INT
+2021/01/22 00:24:58.837  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2021/01/22 00:24:58.837  INFO: Connection Lost for SYSTEM_INT
+2021/01/22 00:24:58.937  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/01/22 00:24:58.937  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/01/22 00:24:58.937  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/01/22 00:24:59.008  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/01/22 00:24:59.009  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/01/22 00:24:59.009  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/01/22 00:24:59.009  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/01/22 00:24:59.110  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/01/22 00:24:59.130  INFO: Killing thread for interface SYSTEM_INT
+2021/01/22 00:24:59.130  INFO: Stopped packet reading for SYSTEM_INT
+2021/01/22 00:24:59.140  INFO: Disconnected from interface SYSTEM_INT
+2021/01/22 00:24:59.140  INFO: Disconnected from interface DART_INT
+2021/01/22 00:24:59.140  INFO: Disconnected from interface VEHICLE_INT
